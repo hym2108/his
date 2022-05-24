@@ -1,0 +1,198 @@
+{
+  "id": "3414877",
+  "name": "his",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "医院管理系统",
+  "glyphs": [
+    {
+      "icon_id": "1505689",
+      "name": "实用查询",
+      "font_class": "shiyongchaxun",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "1973134",
+      "name": "导入",
+      "font_class": "incoming__eas",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "6263353",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "8551037",
+      "name": "导入",
+      "font_class": "daoru",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11839580",
+      "name": "删除",
+      "font_class": "shanchu1",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "15055351",
+      "name": "新建添加",
+      "font_class": "xinjiantianjia",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "22264567",
+      "name": "导出",
+      "font_class": "daochu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "22851866",
+      "name": "面性编辑修改笔",
+      "font_class": "mianxingbianji",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "23863251",
+      "name": "导入",
+      "font_class": "daoru1",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "534273",
+      "name": "物资管理",
+      "font_class": "wuziguanli",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "1028365",
+      "name": "数据统计",
+      "font_class": "shujutongji",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "1331172",
+      "name": "基础管理",
+      "font_class": "xiangmuguanli",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "2058930",
+      "name": "系统公告1",
+      "font_class": "xitonggonggao",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "3879034",
+      "name": "体检管理",
+      "font_class": "tijianguanli",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "5428140",
+      "name": "业务管理",
+      "font_class": "yewuguanli",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "5729759",
+      "name": "数据统计",
+      "font_class": "shujutongji1",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "7171162",
+      "name": "模板管理",
+      "font_class": "mobanguanli",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "7499626",
+      "name": "模板管理",
+      "font_class": "mobanguanli1",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "8802635",
+      "name": "系统管理",
+      "font_class": "xitongguanli",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "12240552",
+      "name": "业务管理",
+      "font_class": "ziyuan",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "12889886",
+      "name": "系统管理",
+      "font_class": "xitongguanli1",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "14698923",
+      "name": "新冠疫情",
+      "font_class": "xgyq",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "17686927",
+      "name": "系统公告设置",
+      "font_class": "xitonggonggaoshezhi",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "22446781",
+      "name": "业务管理",
+      "font_class": "yewuguanli1",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "24097175",
+      "name": "物资管理",
+      "font_class": "wuziguanli1",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "27386262",
+      "name": "业务管理",
+      "font_class": "yewuguanli2",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "28990820",
+      "name": "体检管理",
+      "font_class": "tijianguanli1",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}

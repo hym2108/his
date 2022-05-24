@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>医院管理系统主页</title>
+        <link rel="stylesheet" href="./assets/lib/layui/css/layui.css" />
+        <link rel="stylesheet" href="./assets/fonts/iconfont.css">
+        <link rel="stylesheet" href="./assets/css/index.css">
+    </head>
+    <body>
+        <div class="layui-layout layui-layout-admin">
+            <div class="layui-header">
+                <div class="layui-logo layui-hide-xs layui-bg-black">图标</div>
+                <!-- 头部区域（可配合layui 已有的水平导航） -->
+                <ul class="layui-nav layui-layout-left">
+                    <h1>杭 州 二 院 信 息 管 理 系 统</h1> 
+                   
+                </ul>
+                <ul class="layui-nav layui-layout-right">
+                    <li class="layui-nav-item layui-hide layui-show-md-inline-block">
+                        <a href="javascript:;">
+                            <img src="//tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" class="layui-nav-img" />
+                            admin 
+                        </a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="">修改密码</a></dd>
+                            <dd><a href="">设置</a></dd>
+                            <dd><a href="">其他</a></dd>
+                        </dl>
+                    </li>
+                    <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
+                        <a href="javascript:;">
+                            <i class="layui-icon layui-icon-more-vertical">退出</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="layui-side layui-bg-black">
+                <div class="layui-side-scroll">
+                    <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+                    <ul class="layui-nav layui-nav-tree" lay-shrink="all" lay-filter="test">
+                        <li class="layui-nav-item layui-this">
+                            <a class="" href="javascript:;"><i class="iconfont icon-xitonggonggao"></i>系统公告</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="./notification/notification.html" target="fm">通知管理</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="iconfont icon-tijianguanli1"></i>体检管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="./checkup/person_info.html" target="fm">人员信息录入</a></dd>
+                                <dd><a href="javascript:;">体检项目录入</a></dd>
+                                <dd><a href="javascript:;">体检结果录入</a></dd>
+                                <dd><a href="javascript:;">体检报告录入</a></dd>
+                                <dd><a href="javascript:;">体检报告打印</a></dd>
+                                <dd><a href="javascript:;">体检报告管理</a></dd>
+                                <dd><a href="javascript:;">体检报告查询</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="iconfont icon-xgyq"></i>新冠检测</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">委托人信息录入</a></dd>
+                                <dd><a href="javascript:;">委托人信息管理</a></dd>
+                                <dd><a href="javascript:;">信息列表</a></dd>
+                                <dd><a href="javascript:;">样品条码管理</a></dd>
+                                <dd><a href="javascript:;">样品管理</a></dd>
+                                <dd><a href="javascript:;">物流管理</a></dd>
+                                <dd><a href="javascript:;">任务分配</a></dd>
+                                <dd><a href="javascript:;">结果录入</a></dd>
+                                <dd><a href="javascript:;">报告管理</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="iconfont icon-xiangmuguanli"></i>基础管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">医务人员</a></dd>
+                                <dd><a href="javascript:;">医疗设备</a></dd>
+                                <dd><a href="javascript:;">体检项目</a></dd>
+                                <dd><a href="javascript:;">科室管理</a></dd>
+                                <dd><a href="javascript:;">新冠检测项目管理</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="iconfont icon-shujutongji"></i>数据统计</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">样本信息统计</a></dd>
+                                <dd><a href="javascript:;">结果信息统计</a></dd>
+                                <dd><a href="javascript:;">分析图表</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="iconfont icon-wuziguanli1"></i>物资管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">自定义</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="iconfont icon-xitongguanli
+                                "></i>系统管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">部门管理</a></dd>
+                                <dd><a href="javascript:;">用户管理</a></dd>
+                                <dd><a href="javascript:;">权限管理</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="iconfont icon-mobanguanli
+                                "></i>模版管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">任务模版</a></dd>
+                                <dd><a href="javascript:;">报告模版</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="iconfont icon-yewuguanli1
+                                "></i>业务管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">检测平台管理</a></dd>
+                                <dd><a href="javascript:;">签字人管理</a></dd>
+                                <dd><a href="javascript:;">采样点管理</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="layui-body">
+                <!-- 内容主体区域 -->
+                <iframe src="./home/dashboard.html" name="fm" frameborder="0"></iframe>
+            </div>
+
+            <div class="layui-footer">
+                <!-- 底部固定区域 -->
+                底部固定区域
+            </div>
+        </div>
+        </div>
+        <script src="./assets/lib/layui/layui.js"></script>
+    </body>
+    
+</html>

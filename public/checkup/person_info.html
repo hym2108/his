@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>通知管理</title>
+        <link rel="stylesheet" href="../assets/lib/layui/css/layui.css" />
+        <link rel="stylesheet" href="../assets/fonts/iconfont.css" />
+        <link rel="stylesheet" href="../assets/css/checkup/person_info.css" />
+        <script src="../assets/fonts/iconfont.js"></script>
+    </head>
+
+    <body>
+        <div class="layui-card">
+            <div class="layui-card-header">人员信息</div>
+            <!-- <div class="layui-tab" lay-allowClose="true">
+                <ul class="layui-tab-title">
+                    <li class="layui-this">人员信息录入</li>
+                    <li>人员信息录入</li>
+                    <li>权限分配</li>
+                    <li>订单管理</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show">1</div>
+                    <div class="layui-tab-item">2</div>
+                    <div class="layui-tab-item">3</div>
+                    <div class="layui-tab-item">4</div>
+                    <div class="layui-tab-item">5</div>
+                    <div class="layui-tab-item">6</div>
+                </div>
+            </div> -->
+
+            <div class="layui-card-body">
+                <form class="layui-form" action="">
+                    <div class="layui-form-item">
+                        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-xinjiantianjia"></use>
+                            </svg>
+                            添加
+                        </button>
+                        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-shanchu1"></use>
+                            </svg>
+                            删除
+                        </button>
+                        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-mianxingbianji"></use>
+                            </svg>
+                            修改
+                        </button>
+                        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-daoru1"></use>
+                            </svg>
+                            Excel导入
+                        </button>
+                        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-daochu"></use>
+                            </svg>
+                            导出Excel
+                        </button>
+
+                        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm layui-btn-search">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-shiyongchaxun"></use>
+                            </svg>
+                            查询
+                        </button>
+
+                        <input type="text" name="title" placeholder="请输入身份证号" autocomplete="off" class="layui-input layui-seacher" />
+                    </div>
+                </form>
+
+                <table class="layui-table">
+                    <colgroup>
+                        <col width="50" />
+                        <col width="100" />
+                        <col width="100" />
+                        <col width="100" />
+                        <col />
+                        <col />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" name="" title="" lay-skin="primary" class="check-all" /></th>
+                            <th>姓名</th>
+                            <th>性别</th>
+                            <th>年龄</th>
+                            <th>身份证号</th>
+                            <th>二维码</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="" title="" lay-skin="primary" /></td>
+                            <td>张三三</td>
+                            <td>男</td>
+                            <td>45</td>
+                            <td>123456778953342</td>
+                            <td><img src="../assets/images/ewm.png" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="" title="" lay-skin="primary" /></td>
+                            <td>张三三</td>
+                            <td>男</td>
+                            <td>45</td>
+                            <td>123456778953342</td>
+                            <td><img src="../assets/images/ewm.png" alt="" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <script src="../assets/lib/layui/layui.js"></script>
+    </body>
+</html>

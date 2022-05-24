@@ -1,0 +1,12 @@
+{
+  "name": "his",
+  "version": "1.0.0",
+  "description": "医院信息管理系统",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

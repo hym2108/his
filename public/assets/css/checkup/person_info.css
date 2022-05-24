@@ -1,0 +1,27 @@
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -0.35em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+body {
+    background-color: #f2f3f5;
+    padding: 10px;
+}
+
+.layui-table th,
+.layui-table td {
+    text-align: center;
+}
+
+.layui-form-item .layui-btn-search {
+    margin-left: 150px;
+}
+
+.layui-form-item .layui-seacher {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+}
